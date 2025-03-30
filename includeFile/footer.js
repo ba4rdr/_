@@ -2,7 +2,7 @@
     
     
     
-    fetch('includeFile/footer.html')
+    fetch('https://ba4rdr.github.io/_/includeFile/footer.html')
     .then(response => response.text())
     .then(data => {
         document.getElementById('footer-container').innerHTML = data;
